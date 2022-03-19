@@ -9,7 +9,6 @@ import ScrollToTop from "./Components/ScrollToTop";
 function App() {
   return (
     <>
-      <ScrollToTop />
       <Home />
       <About />
       <AboutWebSurfing />
