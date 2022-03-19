@@ -1,0 +1,31 @@
+.continaer .content .resones ul li::before{
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../Photos/check-circle.svg");
+    background-repeat: no-repeat;
+}
+
+.vedio{
+    height: 18rem;
+    width: 100%;
+    background-image: url("../Photos//videoImage.jpg");
+    background-size: cover;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vedio svg{
+    color: white;
+    font-size: 7rem;
+}

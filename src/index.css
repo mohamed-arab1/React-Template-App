@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+  --light-color: #5b595f;
+  --blue-color: #410ba5;
+  --pink-color: #f32a8f;
+  --heading-color: rgb(18, 18, 88);
+  --background-color: #efe8ff;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  max-width: 100vw !important;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  padding: 0;
+  margin: 0;
+
+}
+
+body::-webkit-scrollbar{
+  background-color: white;
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(18, 18, 88);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 991px){
+  body::-webkit-scrollbar{
+    display: none;
+  }
 }

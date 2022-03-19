@@ -1,0 +1,25 @@
+.title{
+    margin-bottom: 2rem;
+}
+.title h2{
+    margin-bottom: 0.7rem;
+    font-size: x-large;
+    color: var(--heading-color);
+}
+.title div{
+    height: 0.3rem;
+    width: 3rem;
+    border-radius: 0.1rem;
+}
+.title div .blue{
+    background-color: var(--heading-color);
+}
+.title div .pink{
+    background-color: var(--pink-color);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
